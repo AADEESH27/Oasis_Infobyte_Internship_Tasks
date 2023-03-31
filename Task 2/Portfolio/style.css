@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    color: #000
+   
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #0000EE;
+}
+.header{
+    
+    
+    display: flex;
+    justify-content: center;
+    /* margin-top: 4px; */
+    margin-bottom: 4px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    /* border-bottom: 0.5px solid black; */
+    
+    /* overflow: scroll; */
+    
+}
+
+#profileImage{
+    
+    width: 12%;
+    height: 150px;
+    padding: 2px;
+    /* border-right: 0.5px solid black; */
+}
+
+#profileImage img{
+    border-radius: 80px;
+}
+
+#profiledetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+#socialLinks{
+    border-right: 0.5px solid black;
+    padding: 2px;
+}
+
+#educatinalDetails{
+    position: relative;
+    top: 65px;
+    left: 10%;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 35px black;
+    
+    /* box-shadow: -10px -10px 5px white; */
+    
+    
+}
+
+.Educationalitem{
+    padding: 10px;
+    width: 100%;
+}
+
+
+#projectsDetails{
+    position: relative;
+    top: 200px;
+    left: 10%;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 35px black;
+
+   
+    
+    /* box-shadow: -10px -10px 5px white; */
+    
+    
+}
+
+.projectItem{
+    padding: 10px;
+    width: 100%;
+}
+#WorkExperience{
+    position: relative;
+    top: 350px;
+    left: 10%;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 35px black;
+
+   
+    
+    /* box-shadow: -10px -10px 5px white; */
+    
+    
+}
+
+.Experience{
+    padding: 10px;
+    width: 100%;
+}
+
+
+#Skills{
+    position: relative;
+    top: 500px;
+    left: 10%;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 35px black;
+
+   
+    
+    /* box-shadow: -10px -10px 5px white; */
+    
+    
+}
+
+.skill{
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+    box-shadow: 0 0 20px blue;
+}
+
+#resumeDownload{
+    position: relative;
+    top: 500px;
+    /* margin: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 77px;
+    
+}
+
+#resumeDownload button{
+    background-color: #0000EE;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
