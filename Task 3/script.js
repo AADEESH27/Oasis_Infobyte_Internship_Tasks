@@ -1,17 +1,14 @@
-// On Form submission prevent the default action and call the function to update the result
 
 $('form').submit(function (event) {
     event.preventDefault();
     convertInputDegree()
 });
 
-// Realtime Update
 $('#inputDegree').on('input', () => convertInputDegree());
 $('#selectInputDegreeType').change(() => convertInputDegree());
 $('#selectConversionType').change(() => convertInputDegree());
 
 
-// Main function which chechks the input and output degree type and then launch the function
 function convertInputDegree() {
 
     let inputDegree = parseInt($('#inputDegree').val());
@@ -36,23 +33,19 @@ function convertInputDegree() {
 
     }
 
-    // To prevent NaN
     if (isNaN(inputDegree)) {
         $('#convertedDegree').text('');
         return;
     }
 
-    // To update the Degree Unit
     $('#convertedUnit').text(conversionType)
 
 
-    // To update the Degree Value
     $('#convertedDegree').text(resultValue.toFixed(2));
 
 }
 
 
-// Fahrenheit Converter
 function fTo(inputDegreeValue, conversionDegreeType) {
 
     let temperature = '';
@@ -72,8 +65,6 @@ function fTo(inputDegreeValue, conversionDegreeType) {
     }
     return temperature;
 }
-
-// Celcius Converter
 
 
 function cTo(inputDegreeValue, conversionDegreeType) {
@@ -97,8 +88,6 @@ function cTo(inputDegreeValue, conversionDegreeType) {
 
     return temperature;
 }
-
-// Kelvin Converter
 
 function kTo(inputDegreeValue, conversionDegreeType) {
 
